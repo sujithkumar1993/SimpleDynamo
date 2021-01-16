@@ -158,11 +158,6 @@ public class SimpleDynamoProvider extends ContentProvider {
                             else node = "5562";
 
                             node = String.valueOf(Integer.parseInt(node)*2);
-//                        boolean b0 = genHash(myPort).equals(activeNodesList.get(0))&&hashedKey.compareTo(nodeAndHashMap.get(activeNodesList.get(4)))>0;
-//                        boolean b4 = genHash(myPort).equals(activeNodesList.get(0))&&hashedKey.compareTo(nodeAndHashMap.get(activeNodesList.get(0)))>0;
-//                        boolean b1 = hashedKey.compareTo(nodeAndHashMap.get(activeNodesList.get((index+2)%5)))>0&&(hashedKey.compareTo(nodeAndHashMap.get(activeNodesList.get((index+3)%5)))<=0);
-//                        boolean b2 = hashedKey.compareTo(nodeAndHashMap.get(activeNodesList.get((index+3)%5)))>0&&hashedKey.compareTo(nodeAndHashMap.get(activeNodesList.get((index+4)%5)))<=0;
-//                        boolean b3 = hashedKey.compareTo(nodeAndHashMap.get(activeNodesList.get((index+4)%5)))>0&&hashedKey.compareTo(nodeAndHashMap.get(activeNodesList.get((index+5)%5)))<=0;
 
                             Log.e("RECOVER","key ***"+key);
                             Log.e("RECOVER","node ***"+node);
